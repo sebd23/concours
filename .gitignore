@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+
+# Mac/OS
+.DS_Store
+
+# (On garde data/logs, data/exports, data/reports suivis)
