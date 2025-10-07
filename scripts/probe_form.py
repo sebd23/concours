@@ -13,6 +13,8 @@ from pathlib import Path
 import httpx
 from selectolax.parser import HTMLParser
 import yaml
+import datetime
+import zoneinfo  # (Python 3.9+)
 
 ROOT = Path(__file__).resolve().parents[1]
 # 👉 si tu veux tester Corolle plus tard, change ce chemin
@@ -30,10 +32,12 @@ GATE_PATTERNS = [
 ]
 
 def log_line(status, contest, message):
-    ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    tz = zoneinfo.ZoneInfo("Europe/Paris")
+    ts = datetime.datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
     line = f"[{ts}] [{status}] [{contest}] {message}"
     LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
-    LOG_FILE.open("a", encoding="utf-8").write(line + "\n")
+    with open(LOG_FILE, "a", encoding="utf-8") as fh:
+        fh.write(line + "\n")
     print(line)
 
 def load_yaml(p: Path):
