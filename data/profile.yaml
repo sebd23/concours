@@ -1,0 +1,27 @@
+# Profil participant pour le POC Concours FR (fictif)
+
+profile:
+  firstname: "Sebastien"
+  lastname: "DELACHER"
+  email: "seb.del.best@gmail.com"
+  phone: "+33687992181"
+  address:
+    street: "44 rue Bernard Palissy"
+    city: "ORCHIES"
+    postal_code: "59310"
+    country: "France"
+
+preferences:
+  themes:
+    - jouet
+    - enfant
+  frequency: "daily"
+  language: "fr"
+  opt_in_newsletter: false
+  accept_terms: true
+
+metadata:
+  created_at: "2025-10-07"
+  last_update: "2025-10-07"
+  description: >
+    Profil de test pour la participation automatisée aux concours Grattweb.fr
