@@ -16,6 +16,8 @@ import csv
 import datetime
 import argparse
 from pathlib import Path
+import datetime
+import zoneinfo  # (Python 3.9+)
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -39,9 +41,11 @@ def load_yaml(p: Path):
     with open(p, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
-def log_line(status: str, contest: str, message: str):
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    line = f"[{timestamp}] [{status}] [{contest}] {message}"
+def log_line(status, contest, message):
+    tz = zoneinfo.ZoneInfo("Europe/Paris")
+    ts = datetime.datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
+    line = f"[{ts}] [{status}] [{contest}] {message}"
+    LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
     with open(LOG_FILE, "a", encoding="utf-8") as fh:
         fh.write(line + "\n")
     print(line)
