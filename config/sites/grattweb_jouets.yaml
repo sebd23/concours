@@ -1,0 +1,44 @@
+# Configuration du site Grattweb.fr pour les concours "Jouets / Enfants"
+
+site:
+  name: "Grattweb.fr"
+  domain: "grattweb.fr"
+  base_url: "https://www.grattweb.fr/"
+  description: >
+    Annuaire et hébergeur de jeux-concours gratuits (instant gagnant, tirage au sort),
+    proposant régulièrement des lots destinés aux enfants (jouets, BD, figurines...).
+  type: "instant_gagnant"
+  language: "fr"
+  region: "France"
+
+themes:
+  - jouet
+  - enfant
+  - famille
+
+selectors_common:
+  form: "form[action*='product_info']"
+  lastname: "input[name='lastname']"
+  firstname: "input[name='firstname']"
+  email: "input[name='email']"
+  terms: "input[name='terms']"
+  newsletter: "input[name='newsletter']"
+  submit: "button[type='submit']"
+  confirmation: ".alert-success"
+
+behavior:
+  recurrence: "quotidienne"
+  captcha_handling: "manuel"
+  max_attempts_per_day: 1
+  random_delay_seconds: [3, 8]
+  headers:
+    User-Agent: "ConcoursBot/POC (https://github.com/tonpseudo/concours-fr)"
+
+monitoring:
+  log_file: "data/logs/grattweb_jouets.log"
+  report_html: "data/reports/grattweb_jouets.html"
+
+notes: >
+  Cette configuration servira de base pour tous les concours Grattweb liés aux jouets/enfants.
+  Le script d'automatisation pourra importer ce fichier pour récupérer les sélecteurs communs,
+  la fréquence de participation et les informations de site.
