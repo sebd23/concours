@@ -1,0 +1,5 @@
+[2025-10-07 07:58:47] [INFO] [POC] Début du run (simulate=True) - cible: instant_gagnant
+[2025-10-07 07:58:47] [SUCCESS] [grattweb.fr] Participation simulée - succès (dry-run)
+[2025-10-07 07:58:47] [INFO] [POC] CSV écrit : /home/runner/work/concours/concours/data/exports/concours_2025-10-07.csv
+[2025-10-07 07:58:47] [INFO] [POC] Rapport écrit : /home/runner/work/concours/concours/data/reports/grattweb_jouets_2025-10-07.html
+[2025-10-07 07:58:47] [END] [POC] Run terminé
