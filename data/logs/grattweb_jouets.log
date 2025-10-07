@@ -9,3 +9,9 @@
 [2025-10-07 08:15:25] [INFO] [POC] Rapport écrit : /home/runner/work/concours/concours/data/reports/grattweb_jouets_2025-10-07.html
 [2025-10-07 08:15:25] [END] [POC] Run terminé
 [2025-10-07 08:15:27] [INFO] [grattweb.fr / instant_gagnant] Probe OK : GATED_LOGIN (login requis, pas de formulaire en clair)
+[2025-10-07 10:19:09] [INFO] [POC] Début du run (simulate=True) - cible: instant_gagnant
+[2025-10-07 10:19:09] [SUCCESS] [grattweb.fr] Participation simulée - succès (dry-run)
+[2025-10-07 10:19:09] [INFO] [POC] CSV écrit : /home/runner/work/concours/concours/data/exports/concours_2025-10-07.csv
+[2025-10-07 10:19:09] [INFO] [POC] Rapport écrit : /home/runner/work/concours/concours/data/reports/grattweb_jouets_2025-10-07.html
+[2025-10-07 10:19:09] [END] [POC] Run terminé
+[2025-10-07 10:19:12] [INFO] [grattweb.fr / instant_gagnant] Probe OK : GATED_LOGIN (login requis, pas de formulaire en clair)
