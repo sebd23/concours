@@ -1,14 +1,14 @@
 # Profil participant pour le POC Concours FR (fictif)
 
 profile:
-  firstname: "Sebastien"
-  lastname: "DELACHER"
-  email: "seb.del.best@gmail.com"
-  phone: "+33687992181"
+  firstname: "Marie"
+  lastname: "Dupont"
+  email: "marie.dupont@example.com"
+  phone: "+33612345678"
   address:
-    street: "44 rue Bernard Palissy"
-    city: "ORCHIES"
-    postal_code: "59310"
+    street: "10 rue des Lilas"
+    city: "Paris"
+    postal_code: "75010"
     country: "France"
 
 preferences:
@@ -24,4 +24,6 @@ metadata:
   created_at: "2025-10-07"
   last_update: "2025-10-07"
   description: >
-    Profil de test pour la participation automatisée aux concours Grattweb.fr
+    Profil de test pour la participation automatisée aux concours Grattweb.fr (catégorie Jouets / Enfants).
+    Données fictives utilisées uniquement pour le développement et les tests.
+    Aucun envoi réel de données personnelles.
