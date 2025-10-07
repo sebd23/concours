@@ -38,3 +38,17 @@ Conservation
 
 Les rapports HTML sont conservés 30 jours.
 Ils peuvent être exportés en PDF ou archivés automatiquement via GitHub Actions.
+📘 Note :
+Les rapports seront produits par le script generate_report.py (non encore créé à ce stade).
+Aucune donnée personnelle sensible n’est affichée dans ces fichiers.
+
+---
+
+### 💾 Étapes
+
+1️⃣ Sur GitHub → **Add file → Create new file**  
+2️⃣ Nom du fichier : `data/reports/README.md`  
+3️⃣ Colle le contenu ci-dessus.  
+4️⃣ Commit avec un message :  
+
+
