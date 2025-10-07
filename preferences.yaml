@@ -1,0 +1,12 @@
+themes:
+  - enfants
+  - jouet
+frequency: daily
+contest_type: instant_gagnant
+site: grattweb.fr
+exclude_keywords:
+  - photo
+  - vidéo
+  - créatif
+alerts:
+  - email
