@@ -1,22 +1,21 @@
 # Sélecteurs HTML pour le concours "GULLI - Jackpot Jurassic World" (Instant Gagnant)
 # Domaine : grattweb.fr
-# Objectif : préremplir et soumettre automatiquement le formulaire
 
 form:
-  url: "https://www.grattweb.fr/instant-gagnant/gulli-jackpot-jurassic-world"
+  url: "https://www.grattweb.fr/gulli-jeu-jackpot-jurassic-world/product_info.php/products_id/63479"
   method: "post"
 
 selectors:
   lastname: "input[name='lastname']"
   firstname: "input[name='firstname']"
   email: "input[name='email']"
-  terms: "input[name='terms']"          # case CGU obligatoire
-  newsletter: "input[name='newsletter']" # case optionnelle
-  submit: "button[type='submit']"
+  terms: "input[name='terms']"           # case CGU obligatoire (si présente)
+  newsletter: "input[name='newsletter']" # optionnelle (si présente)
+  submit: "button[type='submit'], input[type='submit']"
 
 confirmation:
   success_text: "Votre participation a bien été enregistrée"
-  selector: ".alert-success"
+  selector: ".alert-success, .messageStackSuccess"
 
 meta:
   type: "instant_gagnant"
