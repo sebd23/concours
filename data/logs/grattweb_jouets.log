@@ -79,3 +79,15 @@
 [2025-10-10 16:16:11] [INFO] [grattweb.fr / instant_gagnant] Probe OK : GATED_LOGIN (login requis, pas de formulaire en clair)
 [2025-10-10 16:16:41] [INFO] [grattweb.fr / instant_gagnant] GATED_LOGIN détecté — formulaire non visible — screenshots: snap_20251010_161619_AFTER_NAV.png, snap_20251010_161620_GATED_LOGIN.png
 [2025-10-10 16:16:44] [INFO] [grattweb.fr / instant_gagnant] Probe OK : GATED_LOGIN (login requis, pas de formulaire en clair)
+[2025-10-11 08:22:22] [INFO] [POC] Début du run (simulate=True) - cible: instant_gagnant
+[2025-10-11 08:22:22] [SUCCESS] [grattweb.fr] Participation simulée - succès (dry-run)
+[2025-10-11 08:22:22] [INFO] [POC] CSV écrit : /home/runner/work/concours/concours/data/exports/concours_2025-10-11.csv
+[2025-10-11 08:22:22] [INFO] [POC] Rapport écrit : /home/runner/work/concours/concours/data/reports/grattweb_jouets_2025-10-11.html
+[2025-10-11 08:22:22] [END] [POC] Run terminé
+[2025-10-11 08:22:26] [INFO] [grattweb.fr / instant_gagnant] Probe OK : GATED_LOGIN (login requis, pas de formulaire en clair)
+[2025-10-11 08:23:13] [WARN] [grattweb.fr / instant_gagnant] Navigation tentative 1/3 échouée: Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://www.grattweb.fr/gulli-jeu-jackpot-jurassic-world/product_info.php/products_id/63479", waiting until "load"
+
+[2025-10-11 08:23:42] [INFO] [grattweb.fr / instant_gagnant] GATED_LOGIN détecté — formulaire non visible — screenshots: snap_20251011_082320_AFTER_NAV.png, snap_20251011_082321_GATED_LOGIN.png
+[2025-10-11 08:23:46] [INFO] [grattweb.fr / instant_gagnant] Probe OK : GATED_LOGIN (login requis, pas de formulaire en clair)
