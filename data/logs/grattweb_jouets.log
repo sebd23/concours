@@ -271,3 +271,11 @@ Call log:
 [2025-10-22 16:19:39] [INFO] [grattweb.fr / instant_gagnant] Probe OK : GATED_LOGIN (login requis, pas de formulaire en clair)
 [2025-10-22 16:20:09] [INFO] [grattweb.fr / instant_gagnant] GATED_LOGIN détecté — formulaire non visible — screenshots: snap_20251022_161947_AFTER_NAV.png, snap_20251022_161948_GATED_LOGIN.png
 [2025-10-22 16:20:11] [INFO] [grattweb.fr / instant_gagnant] Probe OK : GATED_LOGIN (login requis, pas de formulaire en clair)
+[2025-10-23 08:24:21] [INFO] [POC] Début du run (simulate=True) - cible: instant_gagnant
+[2025-10-23 08:24:21] [SUCCESS] [grattweb.fr] Participation simulée - succès (dry-run)
+[2025-10-23 08:24:21] [INFO] [POC] CSV écrit : /home/runner/work/concours/concours/data/exports/concours_2025-10-23.csv
+[2025-10-23 08:24:21] [INFO] [POC] Rapport écrit : /home/runner/work/concours/concours/data/reports/grattweb_jouets_2025-10-23.html
+[2025-10-23 08:24:21] [END] [POC] Run terminé
+[2025-10-23 08:24:24] [INFO] [grattweb.fr / instant_gagnant] Probe OK : GATED_LOGIN (login requis, pas de formulaire en clair)
+[2025-10-23 08:25:16] [INFO] [grattweb.fr / instant_gagnant] GATED_LOGIN détecté — formulaire non visible — screenshots: snap_20251023_082433_AFTER_NAV.png, snap_20251023_082455_GATED_LOGIN.png
+[2025-10-23 08:25:18] [INFO] [grattweb.fr / instant_gagnant] Probe OK : GATED_LOGIN (login requis, pas de formulaire en clair)
