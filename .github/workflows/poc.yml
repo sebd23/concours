@@ -1,9 +1,7 @@
 name: POC Concours FR
 
 on:
-  schedule:
-    # ⚠️ CRON en UTC : 06:00 & 14:00 UTC ≈ 08:00 & 16:00 Europe/Paris
-    - cron: "0 6,14 * * *"
+
   workflow_dispatch: {}  # exécuter à la demande depuis l’onglet Actions
 
 permissions:
